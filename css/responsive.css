@@ -238,12 +238,12 @@
            @media(max-width: 500px) {
             .navcustom nav .list-bars{
                 position: absolute;
-                right: 10px;
+                right: 25px;
                 top: 27px;
                 cursor: pointer;
             }
             .navcustom nav .list-bars i {
-                font-size: 28px;
+                font-size: 31px;
                 color: #fcd127;
                 cursor: pointer;
                 z-index: 90;
