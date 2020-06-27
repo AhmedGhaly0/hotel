@@ -4,7 +4,7 @@
 @media(max-width: 990px) {
     .navcustom nav .list-bars{
         position: absolute;
-        left: 650px;
+        right: 20px;
         top: 27px;
         cursor: pointer;
     }
@@ -124,7 +124,7 @@
 @media(max-width: 770px) {
             .navcustom nav .list-bars{
                 position: absolute;
-                left: 420px;
+                right: 20px;
                 top: 27px;
                 cursor: pointer;
             }
@@ -238,7 +238,7 @@
            @media(max-width: 500px) {
             .navcustom nav .list-bars{
                 position: absolute;
-                left: 290px;
+                right: 10px;
                 top: 27px;
                 cursor: pointer;
             }
@@ -277,8 +277,8 @@
                 width: 1500px;
             }
             .header {
-                background-image: url("../img/banner_bg.jpg");
-                background-size: 800px 800px;
+                background-image: url("../img/banner_mobile.jpg");
+                background-size: cover;
                 position: relative;
                 height: 700px;
             }
@@ -291,7 +291,7 @@
 
             .content h6 {
               
-                margin-top: 60px;
+                margin-top: 40px;
             }
 
             .content h2 {
@@ -320,7 +320,7 @@
 
             .book {
                 position: absolute;
-                bottom: -380px;
+                bottom: -348px;
                 left: 0;
                 width: 100%;
                 margin: auto;
@@ -345,6 +345,19 @@
             .hotel-section {
                 margin-top: 450px;
             }
+            .hotel-content h1 {
+                font-size: 26px;
+                line-height: 25px;
+                font-weight: 600;
+                color: #222222;
+            }
+            
+            .hotel-content p {
+                font-size: 12px;
+                line-height: 30px;
+                margin: 0 5px;
+                color: #777777;
+            }
             .hotel-img-effect {
                 width: 60%;
                 transition: all 1s;
@@ -356,7 +369,7 @@
             .facilities-section {
                 background-image: url("../img/facilites_bg.jpg");
                 background-size: cover;
-                height: 1310px;
+                height: 1180px;
                 position: relative;
             }
             .facility {

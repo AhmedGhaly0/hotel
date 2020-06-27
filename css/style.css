@@ -49,7 +49,7 @@ header .menu-link{
 }
 .navcustom nav .list-bars {
     position: absolute;
-    left: 400px;
+    right: 20px ;
     top: -1200px;
 }
 .header {
@@ -224,14 +224,14 @@ header .menu-link{
     line-height: 45px;
     font-weight: 600;
     color: #222222;
-    /* font-family: "Poppins", sans-serif; */
+    
 }
 
 .hotel-content p {
     font-size: 14px;
     line-height: 30px;
     color: #777777;
-    /* font-family: "Poppins", sans-serif; */
+   
 }
 
 .hotel-article {
@@ -294,6 +294,12 @@ a{
 
 .hotel-price {
     font-size: 24px;
+    line-height: 28px;
+    color: #52c5fd;
+    font-weight: 600;
+}
+.hotel-price span {
+    font-size: 13px;
     line-height: 28px;
     color: #52c5fd;
     font-weight: 600;

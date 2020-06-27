@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 
     $(".fa-bars").click(function(){
-        $(".menu-link").slideToggle(1000);
+        $(".menu-link").slideToggle(600);
         $(this).css("display","none")
         $(".fa-times").toggle()
     });
@@ -26,7 +26,7 @@ $(document).ready(function() {
     // function list bars hide menu link
 
     $(".fa-times").click(function(){
-        $(".menu-link").slideToggle(1000);
+        $(".menu-link").slideToggle(600);
         $(this).toggle()
         $(".fa-bars").toggle()
     });
